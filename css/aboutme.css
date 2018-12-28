@@ -1,0 +1,68 @@
+.image-cropper{
+	padding-top: 5%;
+    /* max-width: 400px; */
+    width: 600%;
+	height: auto;
+	overflow: hidden;
+}
+
+.image-cropper img{
+	margin: 0 auto;
+	height: auto;
+	width: 80%;
+	margin: 0 0 0 20%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 200%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+#about{	
+	background-color: white;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:auto;
+	width: auto;
+	font-family: 'Courier New';
+	/* font-family: 'Macondo Swash Caps'; */
+    /* padding-left: 6%; */
+    margin-left: 4%;
+    width: 94%;
+    height: 100%;    
+    text-align: center;
+	/* padding-top: 50px;
+	padding-bottom: 150px; */
+	color: black;
+	background-color: white;    
+	/*opacity: 0.5;*/
+	/*filter: #about(opacity=30);*/
+	display: inline-block;
+}
+
+.aboutheading{
+	font-family: 'Courier New';
+	font-size: 2.5vw;
+}
+
+#aboutme{
+    display: inline-flex;
+	margin-left: 5%;
+	font-size: 1vw;	
+}
+
+#aboutme2{
+    padding-top: 2.5%;
+	float: left;
+	font-size: 1vw;
+}
+
+.aboutheading{
+    margin-top: 8%;
+    padding-top: 2%;
+    /* text-align: left; */
+    /* float: left; */
+}

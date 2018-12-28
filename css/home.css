@@ -1,0 +1,36 @@
+a:hover{
+	color: black;
+}
+
+a{
+	text-align: inline;
+	text-decoration: none;
+}
+#home{
+	background-image: url("../images/notebook.jpg");
+	max-width:100%;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: -8px 0px 0px 0px;
+	color: white;
+	font-family: 'Courier New';
+	padding-left: 4%;
+}
+.A{
+	padding-top: 20%;
+}
+
+.name{
+	font-size: 70px;
+	font-size: 5.5vw;
+}
+.info{
+	font-size: 20px;
+	font-size: 1.5vw;
+}
+hr{
+   border: 2px solid rgb(0, 0, 0);
+}

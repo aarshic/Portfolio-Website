@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.sidebar{
+    background-color: black;
+    width: 4%;
+    height: 100%;
+    margin: 0% 0% 0% -1%;
+    padding: 0% 0% 0% 0%;
+    position: fixed;
+}   
+
+.arrow{
+    top: 45%;
+    position: relative;
+    height: 70%;
+    width: 70%;
+    margin: 30%;
+}
+
+/* .arrow-rotate{
+    transform: rotateY(180deg);
+} */
+
+#bars{
+    margin-top: 10%;
+    color: white;
+}
+
+#main{
+    overflow: hidden;
+}

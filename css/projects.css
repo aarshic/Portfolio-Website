@@ -1,0 +1,114 @@
+#projects{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/bbnew.jpg);
+    /* opacity: 0.6; */
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:auto;
+	width: auto;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Courier New';
+    /* padding-left: 6%; */
+}
+
+.pu {
+    font-family: 'Courier New';
+    background-size: cover;
+    color: white;
+    /* height: 100vh; */
+    /* padding-left: 30%; */
+    padding-top: 8%;
+    text-align: center;
+    color: white;
+    /* margin: 50px; */
+}
+
+.button {
+    /* width: 100%;
+    height: 103%; */
+    background: rgba(255,255,255,0.3);
+    padding: 4% 4% 4% 4%;
+    /* border: 2px solid #fff; */
+    background-clip: padding-box;
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    border: 2px solid black;
+    border-radius: 85px/1px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background: rgb(228, 228, 228);
+    text-decoration: none;
+    color: black;
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 12% auto;
+    padding: 2%;
+    background: #fff;
+    border-radius: 5%;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    color: black;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Courier New';
+    font-size: 3.5vw;
+}
+
+.popup .close {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    transition: all 200ms;
+    font-size: 250%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: rgb(94, 94, 94);
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto; 
+    font-size: 1.5vw;
+}
+  
+@media screen and (max-width: 700px){
+    .button{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}

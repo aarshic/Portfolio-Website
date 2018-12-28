@@ -1,0 +1,51 @@
+#experience{
+    background-color: #ebebeb;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:auto;
+	width: auto;
+    padding-left: 4%;
+    padding-top: 2%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New';
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+ 
+.col-sm-2{
+    flex: 15%;
+    max-width: 15%;
+}
+
+.col-sm-10{
+    flex: 85%;
+    max-width: 85%;
+}
+
+.im{
+    border-right: 2px solid black;
+}
+
+.hh1{
+    font-size: 1.8vw;
+}
+
+.hh2{
+    font-size: 1.2vw;
+}
+
+.hh3{
+    font-size: 1vw;
+}
